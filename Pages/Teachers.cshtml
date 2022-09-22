@@ -1,0 +1,19 @@
+﻿@page
+@model Teachers.Pages.TeachersModel
+@{
+    ViewData["title"] = "Teachers page";
+}
+
+<h1>Teachers Page</h1>
+
+<ul>
+    <li>
+        <p>Name: @Model.Sicco.Name, Id: @Model.Sicco.Id, ClassID: @Model.Sicco.ClassId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Tim.Name, Id: @Model.Tim.Id, ClassID: @Model.Tim.ClassId</p>
+    </li>
+    <li>
+        <p>Name: @Model.Koen.Name, Id: @Model.Koen.Id, ClassID: @Model.Koen.ClassId</p>
+    </li>
+</ul>
