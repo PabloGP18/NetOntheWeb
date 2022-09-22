@@ -113,9 +113,9 @@ You got the basics of creating pages, models AND making them work together!
 
 Now you have to figure a few things out:
 
-     - Instead of one Student I want multiple students, show them in an nice list
-     - I don't want to fill in the URL make sure your nav is up to date
-     - I would love to see some teachers and class rooms make these Models, Views and show them.
-     - NICE TO HAVE -> Make a relation between these Models
+- [x] Instead of one Student I want multiple students, show them in an nice list
+- [x] I don't want to fill in the URL make sure your nav is up to date
+- [x] I would love to see some teachers and class rooms make these Models, Views and show them.
+- NICE TO HAVE -> Make a relation between these Models => STILL TODO!
 
 ![goodluck](https://media.tenor.com/images/1108aca9721cefa7a2ad8f32fdf50378/tenor.gif)
