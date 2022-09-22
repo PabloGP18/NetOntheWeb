@@ -1,0 +1,17 @@
+﻿@page
+@model Students.Pages.StudentsModel
+@{
+}
+<h1>Students Page</h1>
+<p>@Model.Message the time is @DateTime.Now</p>
+<br/>
+
+<h3>Students List: </h3>
+
+<ul>
+<li>
+    <p>Name: @Model.Pablo.Name, Id: @Model.Pablo.Id, ClassID: @Model.Pablo.ClassId</p>
+</li>
+<li>
+    <p>Name: @Model.Melao.Name, Id: @Model.Melao.Id, ClassID: @Model.Melao.ClassId</p></li>
+</ul>
