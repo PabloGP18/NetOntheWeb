@@ -2,33 +2,33 @@
 
 public class Student
 {
-    private int id;
-    private string name;
-    private int classId;
+    private int _id;
+    private string _name;
+    private int _classId;
 
 
     public Student(int id, string name, int classId)
     {
-        this.id = id;
-        this.name = name;
-        this.classId = classId;
+        this._id = id;
+        this._name = name;
+        this._classId = classId;
     }
 
     public int Id
     {
-        get => id;
-        set => id = value;
+        get => _id;
+        set => _id = value;
     }
 
     public string Name
     {
-        get => name;
-        set => name = value ?? throw new ArgumentNullException(nameof(value));
+        get => _name;
+        set => _name = value ?? throw new ArgumentNullException(nameof(value));
     }
 
     public int ClassId
     {
-        get => classId;
-        set => classId = value;
+        get => _classId;
+        set => _classId = value;
     }
 }
