@@ -1,13 +1,15 @@
 ﻿@page
 @model Students.Pages.StudentsModel
 @{
+    ViewData["Title"] = "Students page";
 }
+
+
 <h1>Students Page</h1>
 <p>@Model.Message the time is @DateTime.Now</p>
 <br/>
 
 <h3>Students List: </h3>
-
 <ul>
     <li>
         <p>Name: @Model.Pablo.Name, Id: @Model.Pablo.Id, ClassID: @Model.Pablo.ClassId</p>
